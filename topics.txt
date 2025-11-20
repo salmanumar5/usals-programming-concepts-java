@@ -1,0 +1,416 @@
+✅ MASTER STRUCTURE FOR YOUR JAVA REFERENCE REPO
+1. Java Fundamentals
+1.1 Syntax & Basics
+
+- Variables, Data Types
+- Operators
+- Input/Output
+- Control Flow (if/else, loops, switch)
+- Type Casting (implicit, explicit)
+
+1.2 Key Concepts
+
+Pass-by-value in Java
+
+Immutability
+
+Wrapper Classes & Autoboxing/Unboxing
+
+String, StringBuilder, StringBuffer
+
+2. OOP (Object-Oriented Programming)
+2.1 Core OOP
+
+Classes & Objects
+
+Constructors
+
+this & super
+
+Encapsulation
+
+2.2 Inheritance
+
+Types of inheritance
+
+Method Overriding
+
+final keyword
+
+2.3 Polymorphism
+
+Compile-time polymorphism
+
+Runtime polymorphism
+
+2.4 Abstraction
+
+Abstract classes
+
+Interfaces
+
+Multiple inheritance via interfaces
+
+2.5 Object Class
+
+toString()
+
+equals()
+
+hashCode()
+
+clone()
+
+3. Java Memory Model + JVM Internals
+3.1 JVM Architecture
+
+ClassLoader subsystem
+
+Runtime Data Areas
+
+Execution Engine
+
+3.2 JMM (Java Memory Model)
+
+Stack vs Heap
+
+Method Area
+
+Thread Stack behavior
+
+Escape Analysis
+
+TLAB
+
+3.3 Garbage Collection
+
+GC Types: Serial, Parallel, CMS, G1, ZGC
+
+How GC works internally
+
+GC Roots
+
+Stop-the-world events
+
+3.4 JIT & Performance
+
+JIT compiler
+
+Hotspot optimizations
+
+4. Java Collections Framework
+4.1 Core Interfaces
+
+Collection
+
+List
+
+Set
+
+Map
+
+Queue/Deque
+
+4.2 List Implementations
+
+ArrayList
+
+LinkedList
+
+Vector/Stack
+
+4.3 Set Implementations
+
+HashSet
+
+LinkedHashSet
+
+TreeSet
+
+4.4 Map Implementations
+
+HashMap (with hashing demo)
+
+LinkedHashMap
+
+TreeMap
+
+ConcurrentHashMap (advanced)
+
+4.5 Queue/Deque
+
+PriorityQueue
+
+ArrayDeque
+
+4.6 Under the Hood
+
+Hashing
+
+Load factors
+
+Collisions (chaining, probing)
+
+Fail-fast vs fail-safe iterators
+
+5. Generics
+
+Type parameters
+
+Wildcards (? extends, ? super)
+
+Bounded Types
+
+Generic Methods
+
+Type Erasure (under the hood)
+
+6. Java 8+ Functional Programming
+6.1 Lambda Expressions
+6.2 Functional Interfaces
+
+Predicate
+
+Function
+
+Consumer
+
+Supplier
+
+Custom functional interfaces
+
+6.3 Streams
+
+Stream operations
+
+Intermediate vs Terminal ops
+
+Collectors
+
+Parallel Streams
+
+6.4 Optional
+7. Exception Handling
+7.1 Basics
+
+Exception hierarchy
+
+Checked vs Unchecked
+
+7.2 Best Practices
+
+Custom exceptions
+
+try-with-resources
+
+Finally blocks
+
+7.3 Under the Hood
+
+Throwable internals
+
+Stack traces
+
+8. Multithreading + Concurrency
+8.1 Basics
+
+Thread class
+
+Runnable
+
+Executors
+
+8.2 Concurrency Utilities
+
+ExecutorService
+
+Future, Callable
+
+Thread pools
+
+ScheduledExecutorService
+
+8.3 Synchronization
+
+Locks
+
+synchronized
+
+Volatile
+
+Atomic classes
+
+8.4 Advanced Concurrency
+
+CountDownLatch
+
+CyclicBarrier
+
+Semaphore
+
+Phaser
+
+BlockingQueues
+
+8.5 Fork/Join Framework
+8.6 Under the Hood
+
+Happens-before
+
+Memory barriers
+
+Thread lifecycle
+
+9. File I/O & Serialization
+9.1 Java I/O
+
+Streams
+
+Readers/Writers
+
+9.2 NIO.2
+
+Paths
+
+Files
+
+Channels
+
+WatchService
+
+9.3 Serialization
+
+Serializable
+
+Externalizable
+
+SerialVersionUID
+
+10. Java Networking
+
+Sockets
+
+ServerSocket
+
+HTTP (basic)
+
+URLConnection
+
+11. Java Annotations
+
+Built-in annotations
+
+Custom annotations
+
+Retention/Target policies
+
+Annotation processing
+
+12. Reflection & Dynamic Programming
+
+Reflection basics
+
+Accessing fields/methods
+
+Creating objects dynamically
+
+Method handles
+
+Why reflection is slow
+
+13. Design Patterns (Java-Focused)
+13.1 Creational
+
+Singleton (thread-safe)
+
+Factory
+
+Abstract Factory
+
+Builder
+
+Prototype
+
+13.2 Structural
+
+Adapter
+
+Decorator
+
+Facade
+
+Composite
+
+13.3 Behavioral
+
+Strategy
+
+Observer
+
+Command
+
+Template Method
+
+14. Java Best Practices
+
+Naming
+
+Mutability
+
+Defensive copying
+
+ToString, equals, hashcode
+
+Avoiding memory leaks
+
+Effective Java principles
+
+15. Advanced Topics
+15.1 ClassLoaders
+
+Parent delegation model
+
+Custom class loaders
+
+15.2 Modules (Java 9+)
+
+module-info.java
+
+Modular JARs
+
+15.3 Records
+
+Value-based classes
+
+15.4 Sealed Classes
+16. Build Tools
+
+Maven
+
+Gradle
+
+How dependencies are resolved
+
+Multi-module projects
+
+17. Unit Testing
+
+JUnit 5
+
+Mockito
+
+Testcontainers (optional but nice)
+
+18. Java + Microservices (Optional Section)
+
+Spring Boot basics
+
+REST
+
+Config
+
+Filters, Interceptors
+
+JPA
+
+Hibernate internals
