@@ -1,7 +1,10 @@
 ✅ MASTER STRUCTURE FOR YOUR JAVA REFERENCE REPO
-1. Java Fundamentals
-1.1 Syntax & Basics
 
+
+
+1. Java Fundamentals
+
+1.1 Syntax & Basics
 - Variables, Data Types
 - Operators
 - Input/Output
@@ -9,14 +12,12 @@
 - Type Casting (implicit, explicit)
 
 1.2 Key Concepts
+- Pass-by-value in Java
+- Immutability
+- Wrapper Classes & Autoboxing/Unboxing
+- String, StringBuilder, StringBuffer
 
-Pass-by-value in Java
 
-Immutability
-
-Wrapper Classes & Autoboxing/Unboxing
-
-String, StringBuilder, StringBuffer
 
 2. OOP (Object-Oriented Programming)
 2.1 Core OOP
