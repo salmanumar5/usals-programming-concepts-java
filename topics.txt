@@ -17,26 +17,27 @@
 - Wrapper Classes & Autoboxing/Unboxing
 - String, StringBuilder, StringBuffer
 
+README.md 
+
 
 
 2. OOP (Object-Oriented Programming)
+
+
 2.1 Core OOP
 
-Classes & Objects
+- Classes & Objects
+- Constructors
+- this & super
+- Encapsulation
 
-Constructors
-
-this & super
-
-Encapsulation
 
 2.2 Inheritance
 
-Types of inheritance
+-Types of inheritance
+-Method Overriding
+-final keyword
 
-Method Overriding
-
-final keyword
 
 2.3 Polymorphism
 
