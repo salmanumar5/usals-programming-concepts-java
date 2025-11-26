@@ -41,27 +41,21 @@ README.md
 
 2.3 Polymorphism
 
-Compile-time polymorphism
-
-Runtime polymorphism
+-Compile-time polymorphism
+-Runtime polymorphism
 
 2.4 Abstraction
 
-Abstract classes
-
-Interfaces
-
-Multiple inheritance via interfaces
+-Abstract classes
+-Interfaces
+-Multiple inheritance via interfaces
 
 2.5 Object Class
 
-toString()
-
-equals()
-
-hashCode()
-
-clone()
+-toString()
+-equals()
+-hashCode()
+-clone()
 
 3. Java Memory Model + JVM Internals
 3.1 JVM Architecture
